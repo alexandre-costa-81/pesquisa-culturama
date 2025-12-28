@@ -143,19 +143,20 @@
 
             <fieldset>
                 <legend>Opinião</legend>
-                <label for="satisfaction">Satisfacao</label>
-                <select name="satisfaction" id="satisfaction">
-                    <option value="notInformed">Selecione...</option>
-                    <option value="otima">Ótima</option>
-                    <option value="boa">Boa</option>
-                    <option value="regular">Regular</option>
-                    <option value="ruim">Ruim</option>
-                </select>
+
+                <p>Como você avalia a sua satisfação com a Culturama?</p>
+                <input type="radio" name="satisfaction" id="satisfactionOtima" value="otima">
+                <label for="satisfactionOtima">Ótima</label>
+                <input type="radio" name="satisfaction" id="satisfactionBoa" value="boa">
+                <label for="satisfactionBoa">Boa</label>
+                <input type="radio" name="satisfaction" id="satisfactionRegular" value="regular">
+                <label for="satisfactionRegular">Regular</label>
+                <input type="radio" name="satisfaction" id="satisfactionRuim" value="ruim">
+                <label for="satisfactionRuim">Ruim</label>
                 <br>
 
                 <label for="commentary">Comentário</label>
-                <br>
-                <textarea name="commentary" id="commentary" cols="30" rows="5" placeholder="Deixe seu comentário aqui..."></textarea>
+                <textarea name="commentary" id="commentary" placeholder="Deixe seu comentário aqui..."></textarea>
             </fieldset>
 
             <button type="submit">Enviar</button>
