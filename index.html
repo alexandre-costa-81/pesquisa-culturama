@@ -139,8 +139,26 @@
 
                 <label for="favoriteColor">Cor Favorita</label>
                 <input type="color" name="favoriteColor" id="favoriteColor">
-
             </fieldset>
+
+            <fieldset>
+                <legend>Opinião</legend>
+
+                <p>Como você avalia a sua satisfação com a Culturama?</p>
+                <input type="radio" name="satisfaction" id="satisfactionOtima" value="otima">
+                <label for="satisfactionOtima">Ótima</label>
+                <input type="radio" name="satisfaction" id="satisfactionBoa" value="boa">
+                <label for="satisfactionBoa">Boa</label>
+                <input type="radio" name="satisfaction" id="satisfactionRegular" value="regular">
+                <label for="satisfactionRegular">Regular</label>
+                <input type="radio" name="satisfaction" id="satisfactionRuim" value="ruim">
+                <label for="satisfactionRuim">Ruim</label>
+                <br>
+
+                <label for="commentary">Comentário</label>
+                <textarea name="commentary" id="commentary" placeholder="Deixe seu comentário aqui..."></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
