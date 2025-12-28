@@ -139,8 +139,25 @@
 
                 <label for="favoriteColor">Cor Favorita</label>
                 <input type="color" name="favoriteColor" id="favoriteColor">
-
             </fieldset>
+
+            <fieldset>
+                <legend>Opinião</legend>
+                <label for="satisfaction">Satisfacao</label>
+                <select name="satisfaction" id="satisfaction">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="otima">Ótima</option>
+                    <option value="boa">Boa</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                </select>
+                <br>
+
+                <label for="commentary">Comentário</label>
+                <br>
+                <textarea name="commentary" id="commentary" cols="30" rows="5" placeholder="Deixe seu comentário aqui..."></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
