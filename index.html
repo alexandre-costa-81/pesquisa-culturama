@@ -46,13 +46,14 @@
                         id="userPhoneNumber"
                         pattern="[0-9]{11}"
                         placeholder="DDD + número"
-                        aria-describedby="userPhoneNumber"
+                        aria-describedby="userPhoneNumberHelp"
                     >
                     <small id="userPhoneNumberHelp">Preencha com 11 dígitos, incluindo DDD</small>
                     <br>
     
                     <label for="userImage">Upload de Foto</label>
-                    <input type="file" accept="image/*" name="userImage" id="userImage">
+                    <input type="file" accept="image/*" name="userImage" id="userImage" aria-describedby="userImageHelp">
+                    <small id="userImageHelp">Envie uma foto sua no formato JPG, PNG ou GIF</small>
                 </fieldset>
     
                 <fieldset>
